@@ -45,7 +45,7 @@ const generateServiceCard = (service) => {
       <div class="p-6 text-left">
         <i class="${service.icon} text-5xl text-primary-green mb-4 block"></i>
         <h3 class="text-2xl mb-4 font-bold">${service.title}</h3>
-        <p class="text-base text-gray-paragraph">${service.description}</p>
+        <p class="text-base text-gray-paragraph text-justify">${service.description}</p>
       </div>
     </div>
   `;

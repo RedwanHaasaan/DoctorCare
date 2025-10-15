@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       form.reset();
     } catch (error) {
       console.error("EmailJS Error:", error);
-      formStatus.textContent = "Failed to send message. Please try again later.";
+      formStatus.textContent = "Failed to send message. Please try again later."; // Error message
       formStatus.classList.add("text-red-500");
     } finally {
       submitBtn.textContent = originalText;
