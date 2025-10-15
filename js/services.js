@@ -1,9 +1,9 @@
 const services = [
   {
-    id: 1,
-    title: "Digestive Issues",
-    description: "We help identify and treat common digestive problems such as bloating, heartburn, and irregular digestion through personalized care and nutrition advice.",
-    icon: "ri-lungs-line"
+  id: 1,
+  title: "Lung Issues",
+  description: "We provide expert care for respiratory conditions such as asthma, bronchitis, and shortness of breath, focusing on improving lung function and overall breathing health",
+  icon: "ri-lungs-line"
   },
   {
     id: 2,

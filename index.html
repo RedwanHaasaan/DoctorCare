@@ -94,7 +94,7 @@
           <button
             class="border bg-primary-green px-8 py-3 rounded-full text-white hover:bg-green-hover transition-all duration-200 flex items-center gap-2 mx-auto md:mx-0">
             <i class="ri-whatsapp-line"></i>
-            <a href="#contact" class="text-sm">Schedule your appointment</a>
+            <a href="https://wa.me/+8801316997573"  target="_blank" class="text-sm">Schedule your appointment</a>
           </button>
         </div>
       </div>
@@ -109,15 +109,15 @@
   <section class="container max-w-screen-xl mx-auto bg-beige md:h-52 -mt-28 md:-mt-20 lg:-mt-28  rounded-[6px] shadow-lg stats-section">
     <div class=" pt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-center text-center justify-center">
       <div class="text-center rounded-md md:border-r border-b md:border-b-0 border-primary-green border-opacity-40 pb-5 md:pb-0">
-        <h1 class="p-4 text-gray-heading font-bold text-5xl mb-2">+3.500</h1>
+        <h1 class="p-4 text-gray-heading font-bold text-5xl mb-2">500</h1>
         <p class="text-primary-green text-base text-center ">Patients treated</p>
       </div>
       <div class="p-4 text-center md:border-r border-b md:border-b-0 border-primary-green border-opacity-40 pb-5 md:pb-0">
-        <h1 class="text-gray-heading font-bold text-5xl mb-2">+15</h1>
+        <h1 class="text-gray-heading font-bold text-5xl mb-2">15</h1>
         <p class="text-primary-green text-base text-center">Experts available</p>
       </div>
       <div class="p-4 text-center">
-        <h1 class="text-gray-heading font-bold text-5xl mb-2">+10</h1>
+        <h1 class="text-gray-heading font-bold text-5xl mb-2">10</h1>
         <p class="text-primary-green text-base text-center">Years in the market</p>
       </div>
     </div>
@@ -138,8 +138,83 @@
     </div>
    </section>
 
+   <!-- About Section -->
+   <section class="md:py-20 py-12 bg-beige" id="about">
+    <div class="py-12 container max-w-screen-xl mx-auto px-4 flex flex-col-reverse md:flex-row items-centers md:gap-4 lg:gap-16 justify-betweens">
+      <!-- Image Section -->
+       <div class="w-full md:w-1/2 about-section"><img src="./images/about.png" alt="about-image" class="w-full h-auto rounded-lg"></div>
+      <!-- text Section -->
+       <div class="w-full md:w-1/2 md:pl-8 about-section">
+        <h1 class="text-primary-green font-bold text-xl mb-4">About Us</h1>
+        <h2 class="text-gray-heading font-bold text-3xl lg:text-[40px] lg:w-3/4 mb-6">Discover Who We Are and Why We Exist</h2>
+        <p class="text-base text-gray-paragraph text-justify mb-14 md:mb-0">At Doctor Care, we are driven by a clear purpose — to deliver excellence, innovation, and meaningful impact in everything we do. Our team is dedicated to providing high-quality solutions that meet the evolving needs of our clients and community, guided by our core values of integrity, collaboration, and continuous improvement. Every project we undertake reflects our commitment to creating value and building lasting relationships based on trust and transparency, as we strive through passion and expertise to make a positive difference and contribute to a better future for everyone we serve.</p>
+       </div>
+    </div>
+   </section>
+
+   <!-- Contact Section -->
+<section class="py-12 md:py-20 bg-white" id="contact">
+  <div class="container max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-16">
+    
+    <!-- Left: Contact Form -->
+    <div class="w-full md:w-1/2">
+      <h1 class="text-primary-green font-bold text-2xl sm:text-3xl mb-6">Get in touch with us!</h1>
+      <form action="#" class="space-y-5">
+        <div>
+          <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green transition-all" 
+            required
+          >
+        </div>
+        <div>
+          <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green transition-all" 
+            required
+          >
+        </div>
+        <div>
+          <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+          <textarea 
+            id="message" 
+            name="message" 
+            rows="4" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green transition-all resize-none overflow-auto" 
+            required
+          ></textarea>
+        </div>
+        <button 
+          type="submit" 
+          class="w-full md:w-2/5 lg:w-1/5 bg-primary-green text-white px-6 py-3 rounded-lg hover:bg-green-hover transition-all duration-200">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+      <img 
+        src="./images/contact.png" 
+        alt="Contact illustration" 
+        class="w-full rounded-2xl shadow-lg object-cover"
+      >
+    </div>
+    
+  </div>
+</section>
+
+
+
    <!-- javascript file -->
    <Script src="./js/services.js"></Script>
+    <Script src="./js/counter.js"></Script>
 </body>
 
 </html>
